@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8051
   servlet:
     context-path: / #项目名称
     session.timeout: P0DT60M0S #D天H小时M分钟S秒，字符T是紧跟在时分秒之前的，每个单位都必须由数字开始,且时分秒顺序不能乱
@@ -46,7 +46,7 @@ ms:
     back-up: /upload_back
     multipart:
       #最大上传文件大小 单位：KB
-      max-file-size: 1024
+      max-file-size: 10240
       #文件暂存临时目录
       upload-temp-dir: temp
       #临时文件大小
